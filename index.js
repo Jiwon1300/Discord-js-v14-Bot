@@ -14,7 +14,7 @@ commandFiles.forEach(file=>{
 })
 
 client.on('ready',async ()=>{
-    await client.guilds.cache.get('784658701394509876').commands.set(slashCommandArray); // 길드에 커맨드를 설정
+    await client.guilds.cache.get('길드 아이디').commands.set(slashCommandArray); // 길드에 커맨드를 설정
     console.log(`${client.user.tag} 준비완료`)
 });
 
