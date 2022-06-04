@@ -1,0 +1,15 @@
+{
+  "name": "discordjs14",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.14.0-dev.1653480270-68d5169",
+    "discord.js": "^14.0.0-dev.1653480262-68d5169"
+  }
+}
